@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightslategray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--<ListView-->
+            <!--android:id="@+id/list_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<Item-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Спорт" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/firstImage"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/first" />
+
+                    <TextView
+                        android:id="@+id/text_view1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/firstImage"
+                        android:text="Лео Турини о презентации новой машины Ferrari"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/text_view1_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/text_view1"
+                        android:layout_toRightOf="@+id/firstImage"
+                        android:text="Лео Турини побывал на презентации новой машины Ferrari"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/text_view1_content"
+                        android:layout_alignLeft="@+id/text_view1_content"
+                        android:text="подробнее" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/secondImage"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/second" />
+
+                    <TextView
+                        android:id="@+id/text_view2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/secondImage"
+                        android:text="Даниэль Риккардо: Хочется поскорее продолжить работу"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/text_view2_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/text_view2"
+                        android:layout_toRightOf="@+id/secondImage"
+                        android:text="В субботу Даниэль Риккардо впервые сел за руль машины команды Renault"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/text_view2_content"
+                        android:layout_alignLeft="@+id/text_view2"
+                        android:text="подробнее" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Весь список"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <!--</Item>-->
+
+
+            <!--<Item-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Путешествия" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/thirdImage"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/third" />
+
+                    <TextView
+                        android:id="@+id/text_view3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/thirdImage"
+                        android:text="На Канарах запретили рисовать на песке"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/text_view3_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/text_view3"
+                        android:layout_toRightOf="@+id/thirdImage"
+                        android:text="Меры строги — но необходимы, чтобы сохранить пейзажи островов!"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/text_view3_content"
+                        android:layout_alignLeft="@+id/text_view3_content"
+                        android:text="подробнее" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/forthImage"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/forth" />
+
+                    <TextView
+                        android:id="@+id/text_view4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/forthImage"
+                        android:text="Выходные в Риме"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/text_view4_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/text_view4"
+                        android:layout_toRightOf="@+id/forthImage"
+                        android:text="маршрут по главным точкам силы великого города"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/text_view4_content"
+                        android:layout_alignLeft="@+id/text_view4"
+                        android:text="подробнее" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Весь список"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <!--</Item>-->
+
+
+            <!--</ListView>-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
