@@ -20,15 +20,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        ListView listView = (ListView)findViewById(R.id.film_list);
+        ListView listView = (ListView) findViewById(R.id.films);
         FilmAdapter filmAdapter = new FilmAdapter(this);
         listView.setAdapter(filmAdapter);
 
 
 
-
-        setContentView(R.layout.activity_main);
 
 
 

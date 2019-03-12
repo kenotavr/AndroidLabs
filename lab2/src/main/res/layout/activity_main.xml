@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- A RecyclerView with some commonly used attributes -->
+
     <ListView
-        android:id="@+id/film_list"
+        android:id="@+id/films"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     </ListView>
