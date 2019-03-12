@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">app</string>
+
+
+    <string-array name="film_name_list">
+        <item>люди в черном</item>
+        <item>тренер картер</item>
+        <item>гонка</item>
+        <item>13 район</item>
+        <item>Властелин колец: братство кольца</item>
+        <item>семь</item>
+        <item>Звездный крейсер галактика: план</item>
+        <item>марсианин</item>
+        <item>планета сокровищ</item>
+    </string-array>
+
+    <string-array name="film_years">
+        <item>1997</item>
+        <item>2005</item>
+        <item>2013</item>
+        <item>2004</item>
+        <item>2001</item>
+        <item>1995</item>
+        <item>2009</item>
+        <item>2015</item>
+        <item>2008</item>
+        <item>2002</item>
+    </string-array>
+
+    <string-array name="film_genre">
+        <item>фантастика, комедия, детектив, приключения</item>
+        <item>драма, биография, спорт</item>
+        <item>биография, драма, спорт</item>
+        <item>боевик, триллер, криминал</item>
+        <item>фэнтези, приключения</item>
+        <item>триллер, драма, криминал, детектив</item>
+        <item>фантастика, боевик, драма, приключения</item>
+        <item>приключения, фантастика</item>
+        <item>фантастика, боевик, приключения</item>
+        <item>мультфильм, фантастика, мелодрама, приключения, семейный</item>
+    </string-array>
+
+    <string-array name="film_posters">
+        <item>@drawable/man_in_black</item>
+        <item>@drawable/coach_carter</item>
+        <item>@drawable/rush</item>
+        <item>@drawable/district_13</item>
+        <item>@drawable/lotr</item>
+        <item>@drawable/se7en</item>
+        <item>@drawable/battlestar_galactica</item>
+        <item>@drawable/martian</item>
+        <item>@drawable/iron_man</item>
+        <item>@drawable/treasure_planet</item>
+    </string-array>
+
+    <!--<string-array name="film_list">--><!--<item>--><!--<string-array name="man_in_black">--><!--<item>люди в черном</item>--><!--<item>1997</item>--><!--<item>фантастика, комедия, детектив, приключения</item>--><!--<item>man_in_black.jpg</item>--><!--</string-array>--><!--</item>--><!--<item>--><!--<string-array name="coach_karter">--><!--<item>тренер картер</item>--><!--<item>2005</item>--><!--<item>драма, биография, спорт</item>--><!--<item>coach_karter.jpg</item>--><!--</string-array>--><!--</item>--><!--<item>--><!--<string-array name="rush">--><!--<item>гонка</item>--><!--<item>2013</item>--><!--<item>биография, драма, спорт</item>--><!--<item>rush.jpg</item>--><!--</string-array>--><!--</item>--><!--<item>--><!--<string-array name="district_13">--><!--<item>13-й район</item>--><!--<item>2004</item>--><!--<item>боевик, триллер, криминал</item>--><!--<item>district_13.jpg</item>--><!--</string-array>--><!--</item>--><!--<item>--><!--<string-array name="lotr">--><!--<item>Властелин колец: братство кольца</item>--><!--<item>2001</item>--><!--<item>фэнтези, приключения</item>--><!--<item>lotr.jpg</item>--><!--</string-array>--><!--</item>--><!--<item>--><!--<string-array name="seven">--><!--<item>семь</item>--><!--<item>1995</item>--><!--<item>триллер, драма, криминал, детектив</item>--><!--<item>se7en.jpg</item>--><!--</string-array>--><!--</item>--><!--<item>--><!--<string-array name="battlestar_galacticа_plan">--><!--<item>Звездный крейсер галактика: план</item>--><!--<item>2009</item>--><!--<item>фантастика, боевик, драма, приключения</item>--><!--<item>battlestar_galacticа_plan.jpg</item>-->
+
+    <!--</string-array>--><!--</item>--><!--<item>--><!--<string-array name="martian">--><!--<item>марсианин</item>--><!--<item>2015</item>--><!--<item>приключения, фантастика</item>--><!--<item>martian.jpg</item>-->
+
+    <!--</string-array>--><!--</item>--><!--<item>--><!--<string-array name="iron_man">--><!--<item>железный человек</item>--><!--<item>2008</item>--><!--<item>фантастика, боевик, приключения</item>--><!--<item>iron_man.jpg</item>-->
+
+    <!--</string-array>--><!--</item>--><!--<item>--><!--<string-array name="treasure_planet">--><!--<item>планета сокровищ</item>--><!--<item>2002</item>--><!--<item>мультфильм, фантастика, мелодрама, приключения, семейный</item>--><!--<item>treasure_planet.jpg</item>-->
+
+    <!--</string-array>--><!--</item>--><!--</string-array>-->
+
+    </resources>
